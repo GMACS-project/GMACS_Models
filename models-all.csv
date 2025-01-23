@@ -1,0 +1,39 @@
+path,gmacs_dat,dat_file,ctl_file,prj_file,pin_file,par_file,allout_file
+AIGKC_202401,gmacs.dat,EAG_23_1b.dat,EAG_23_1b.ctl,EAG_23_1b.prj,gmacs.pin,NA,NA
+AIGKC_EAG22_1e2,NA,Gmacs9cEAG22_1e2CatchNo_complete.dat,Gmacs9cEAG22_1e2CatchNo_complete.ctl,Gmacs9cEAG22_1e2CatchNo_complete.prj,NA,NA,NA
+AIGKC_EAG_20240327,NA,NA,Gmacs9cEAG22_1e2CatchNo_complete.ctl,NA,NA,NA,NA
+AIGKC_EAG_20240723DirichMulti,gmacs.dat,EAG_25_1.dat,EAG_25_1.ctl,EAG_25_1.prj,NA,NA,Gmacsall.out
+AIGKC_EAG_20250114,gmacs.dat,EAG_23_1c.dat,EAG_23_1c.ctl,EAG_23_1c.prj,NA,NA,Gmacsall.out
+AIGKC_EnvCovs,NA,Gmacs8cEAG21_1eUpdateCatchNo.dat,NA,NA,NA,NA,NA
+AIGKC_WAG_20250114,gmacs.dat,WAG_23_1c.dat,WAG_23_1c.ctl,WAG_23_1c.prj,NA,NA,Gmacsall.out
+AndreLatest,NA,TannerCrab_AllFisheriesNMFS.20240404a.dat,"snow.ctl, TannerCrab_24_01.20240404.ctl, TannerCrab_24_01.20240404a.ctl, TannerCrab_24_01corrected.ctl",TannerCrab_24_01.20240404a.prj,NA,NA,Gmacsall.out
+BBRKC_202401,gmacs.dat,bbrkc211.dat,bbrkc211.ctl,bbrkc21.prj,gmacs.pin,NA,NA
+BBRKC_20240327,NA,NA,bbrkc211.ctl,NA,NA,NA,NA
+BBRKC_20240731,NA,NA,NA,NA,NA,NA,"Gmacsall_v14.out, Gmacsall_v16.out"
+BBRKC_20240731/bbrkc_v14,gmacs.dat,bbrkc211_24f.dat,bbrkc230a_sept24_sz1.ctl,bbrkc21_24f.prj,NA,gmacs.par,Gmacsall.out
+BBRKC_20240731/bbrkc_v16,gmacs.dat,bbrkc211_24f.dat,bbrkc230a_sept24_sz1.ctl,bbrkc21_24f.prj,NA,NA,NA
+BBRKC_20240731/bbrkcgmacs2_20_16issue,gmacs.dat,bbrkc.dat,"bbrkc_v14.ctl, bbrkc_v16.ctl",bbrkc.prj,NA,NA,NA
+BBRKC_20250114,gmacs.dat,bbrkc211_24f_oct24.dat,bbrkc230a_sept24_sz1.ctl,bbrkc21_24f.prj,NA,NA,Gmacsall.out
+NSRKC_202401,gmacs.dat,nsrkc23.dat,nsrkc23.ctl,nsrkc23.prj,gmacs.pin,NA,NA
+NSRKC_20240327,NA,NA,nsrkc23.ctl,NA,NA,NA,NA
+NewCTLformat_20240401,NA,NA,"gmacs_in.ctl, gmacs_in1.ctl, gmacs_out.ctl",NA,NA,NA,NA
+SMBKC_202401,gmacs.dat,sm22.dat,sm22.ctl,sm22.prj,gmacs.pin,NA,NA
+SMBKC_20240327,NA,NA,sm22.ctl,NA,NA,NA,NA
+SMBKC_20240528,gmacs.dat,sm24_updated.dat,"sm24_updated.ctl, sm24.ctl",sm24.prj,NA,NA,NA
+SMBKC_20250114,gmacs.dat,sm24.dat,sm24.ctl,sm24.prj,NA,gmacs.par,Gmacsall.out
+SnowCrab_202401,gmacs.dat,snow.dat,snow.ctl,snow.prj,gmacs.pin,NA,NA
+SnowCrab_20240304,gmacs.dat,snow.dat,snow.ctl,snow.prj,gmacs.pin,NA,NA
+SnowCrab_20240318,gmacs.dat,snow.dat,snow.ctl,snow.prj,NA,NA,NA
+SnowCrab_20240321,NA,snow.dat,snow.ctl,snow.prj,NA,NA,NA
+SnowCrab_20240326,NA,snow.dat,snow.ctl,snow.prj,NA,NA,NA
+SnowCrab_20240327,NA,NA,snow.ctl,NA,NA,NA,NA
+SnowCrab_20240328,gmacs.dat,snow.dat,snow.ctl,snow.prj,NA,NA,NA
+TannerCrab_20240627,gmacs.dat,TannerCrab_AllFisheriesNMFS-2SexCatchDataB.dat,TannerCrab_24_06b.ctl,TannerCrab_24_06.prj,NA,NA,NA
+TannerCrab_24_06-20240528,gmacs.dat,TannerCrab_AllFisheriesNMFS-2SexCatchDataB.dat,TannerCrab_24_06b.ctl,TannerCrab_24_06.prj,NA,NA,NA
+TannerCrab_MalesOnlyA,gmacs.dat,tanner.dat,tanner.ctl,tanner.prj,gmacs.pin,NA,NA
+TannerCrab_MalesOnlyANew,gmacs.dat,tanner.dat,tanner.ctl,tanner.prj,gmacs.pin,NA,NA
+v_2-20-14/BBRKC_2024Asmt,gmacs.dat,bbrkc211_24f.dat,bbrkc230a_sept24_sz1.ctl,bbrkc21_24f.prj,NA,gmacs.par,Gmacsall.out
+v_2-20-14/SMBKC_2024Asmt,gmacs.dat,sm24.dat,sm24.ctl,sm24.prj,NA,gmacs.par,NA
+v_2-20-17/SMBKC_2024Asmt,gmacs.dat,sm24.dat,sm24.ctl,sm24.prj,gmacs.pin,NA,NA
+v_2-20-17/TannerCrab24_02,gmacs.dat,TannerCrab_AllFisheriesNMFS-2SexCatchData.dat,TannerCrab_24_02.ctl,TannerCrab_24_02.prj,gmacs.pin,NA,NA
+v_2-20-17/TannerCrab24_02a,gmacs.dat,TannerCrab_AllFisheriesNMFS-2SexCatchData.dat,TannerCrab_24_02a.ctl,TannerCrab_24_02.prj,gmacs.pin,NA,NA
