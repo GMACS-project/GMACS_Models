@@ -54,3 +54,18 @@ getModelPaths<-function(topDir="./all_models",csv="./models-all.csv",overwrite=F
     readr::write_csv(dfr,csv);
   return(dfr);
 }
+
+if (FALSE){
+  #--run getModelPaths----
+  dirCur = getwd();
+  dirThs = dirname(rstudioapi::getActiveDocumentContext()$path);
+  setwd(dirThs);
+  source("./getFileType.R");
+  source("./getModelPaths.R");
+  dfr = getModelPaths(topDir="./all_models",csv="./models-all.csv",overwrite=FALSE);#--test run
+  if (FALSE) dfr = getModelPaths(topDir="./all_models",csv="./models-all.csv",overwrite=TRUE);#--re-run if all correct
+  setwd(dirCur);#--reset working directory
+  
+  #--edit "models-for_testing.csv" and "models-latest_assessment.csv" as necessary----
+}
+
