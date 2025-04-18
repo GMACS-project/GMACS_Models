@@ -15,6 +15,7 @@ BBRKC_20240731/bbrkcgmacs2_20_16issue,gmacs.dat,bbrkc.dat,"bbrkc_v14.ctl, bbrkc_
 BBRKC_20250114,gmacs.dat,bbrkc211_24f_oct24.dat,bbrkc230a_sept24_sz1.ctl,bbrkc21_24f.prj,NA,NA,Gmacsall.out
 NSRKC_202401,gmacs.dat,nsrkc23.dat,nsrkc23.ctl,nsrkc23.prj,gmacs.pin,NA,NA
 NSRKC_20240327,NA,NA,nsrkc23.ctl,NA,NA,NA,NA
+NSRKC_20250130,gmacs.dat,nsrkc24.dat,nsrkc24.ctl,nsrkc24.prj,gmacs.pin,NA,Gmacsall.out
 SMBKC_202401,gmacs.dat,sm22.dat,sm22.ctl,sm22.prj,gmacs.pin,NA,NA
 SMBKC_20240327,NA,NA,sm22.ctl,NA,NA,NA,NA
 SMBKC_20240528,gmacs.dat,sm24_updated.dat,"sm24_updated.ctl, sm24.ctl",sm24.prj,NA,NA,NA

@@ -63,7 +63,9 @@ if (FALSE){
   source("./getFileType.R");
   source("./getModelPaths.R");
   dfr = getModelPaths(topDir="./all_models",csv="./models-all.csv",overwrite=FALSE);#--test run
-  if (FALSE) dfr = getModelPaths(topDir="./all_models",csv="./models-all.csv",overwrite=TRUE);#--re-run if all correct
+  if (FALSE) {  #--RE-RUN IF ALL IS CORRECT!!
+    dfr = getModelPaths(topDir="./all_models",csv="./models-all.csv",overwrite=TRUE);
+  }
   setwd(dirCur);#--reset working directory
   
   #--edit "models-for_testing.csv" and "models-latest_assessment.csv" as necessary----

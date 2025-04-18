@@ -349,10 +349,10 @@
 # Sigma_RW: Sigma for the random walk parameters
 # Mirror_RW: Should time-varying aspects be mirrows (Indexed by ig)
 ## Relative? Type Extra SizeBrkpts Mirror  Block Block_fn Env_L EnvL_Var  RW RW_blk Sigma_RW Mirror_RW
-           0    0     0          0      0      1        1     0        0   0      0      0.3         0  # Males; mature
-           1    0     0          0      0      1        1     0        0   0      0      0.3         0  # Males; immature
-           0    0     0          0      0      1        1     0        0   0      0      0.3         0  # Females; mature
-           3    0     0          0      0      1        1     0        0   0      0      0.3         0  # Females; immature
+     0        0     0       0        0       1      1      0        0     0      0      0.3      0  # Males; mature
+     1        0     0       0        0       1      1      0        0     0      0      0.3      0  # Males; immature
+     0        0     0       0        0       1      1      0        0     0      0      0.3      0  # Females; mature
+     3        0     0       0        0       1      1      0        0     0      0      0.3      0  # Females; immature
 
 ## Size breakpoints 
 #2 3
@@ -412,7 +412,7 @@
    0	    0	     0	     0	     # estimate maximum retention (1=Yes, 0=No) (females)
    
 #Initial	Lower_bound	Upper_bound	Prior_type	Prior_1	Prior_2	Phase	Block	Block_fn	Env_L	EnvL_var	RW	RW_Block	Sigma
-105.7114	5	186	0	1	999	4	0	0	0	0	0	0	0.3
+105.7114	     5          186          0         1        999     4     0      0       0       0    0    0      0.3
 4.997241	0.01	20	0	1	999	4	0	0	0	0	0	0	0.3
 #Gear-2-males													
 109.931	5	185	0	1	999	4	0	0	0	0	0	0	0.3
