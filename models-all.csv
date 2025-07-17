@@ -13,6 +13,8 @@ BBRKC_20240731/bbrkc_v14,gmacs.dat,bbrkc211_24f.dat,bbrkc230a_sept24_sz1.ctl,bbr
 BBRKC_20240731/bbrkc_v16,gmacs.dat,bbrkc211_24f.dat,bbrkc230a_sept24_sz1.ctl,bbrkc21_24f.prj,NA,NA,NA
 BBRKC_20240731/bbrkcgmacs2_20_16issue,gmacs.dat,bbrkc.dat,"bbrkc_v14.ctl, bbrkc_v16.ctl",bbrkc.prj,NA,NA,NA
 BBRKC_20250114,gmacs.dat,bbrkc211_24f_oct24.dat,bbrkc230a_sept24_sz1.ctl,bbrkc21_24f.prj,NA,NA,Gmacsall.out
+BBRKC_20250529,gmacs.dat,bbrkc211_24f_oct24.dat,bbrkc230a_sept24_sz1.ctl,bbrkc21_24f.prj,NA,NA,Gmacsall.out
+BBRKC_20250616,gmacs.dat,bbrkc211_24f_oct24.dat,bbrkc230a_sept24_sz1.ctl,bbrkc21_24f.prj,gmacs.par.pin,gmacs.par,Gmacsall.out
 NSRKC_202401,gmacs.dat,nsrkc23.dat,nsrkc23.ctl,nsrkc23.prj,gmacs.pin,NA,NA
 NSRKC_20240327,NA,NA,nsrkc23.ctl,NA,NA,NA,NA
 NSRKC_20250130,gmacs.dat,nsrkc24.dat,nsrkc24.ctl,nsrkc24.prj,gmacs.pin,NA,Gmacsall.out
@@ -20,6 +22,7 @@ SMBKC_202401,gmacs.dat,sm22.dat,sm22.ctl,sm22.prj,gmacs.pin,NA,NA
 SMBKC_20240327,NA,NA,sm22.ctl,NA,NA,NA,NA
 SMBKC_20240528,gmacs.dat,sm24_updated.dat,"sm24_updated.ctl, sm24.ctl",sm24.prj,NA,NA,NA
 SMBKC_20250114,gmacs.dat,sm24.dat,sm24.ctl,sm24.prj,NA,gmacs.par,Gmacsall.out
+SMBKC_20250717,gmacs.dat,sm24.dat,sm24.ctl,sm24.prj,NA,gmacs.par,Gmacsall.out
 SnowCrab_202401,gmacs.dat,snow.dat,snow.ctl,snow.prj,gmacs.pin,NA,NA
 SnowCrab_20240304,gmacs.dat,snow.dat,snow.ctl,snow.prj,gmacs.pin,NA,NA
 SnowCrab_20240318,gmacs.dat,snow.dat,snow.ctl,snow.prj,NA,NA,NA
@@ -35,6 +38,7 @@ TannerCrab_20240404,NA,TannerCrab_AllFisheriesNMFS.20240404a.dat,"TannerCrab_24_
 TannerCrab_20240528,gmacs.dat,TannerCrab_AllFisheriesNMFS-2SexCatchDataB.dat,TannerCrab_24_06b.ctl,TannerCrab_24_06.prj,NA,NA,NA
 TannerCrab_20240627,gmacs.dat,TannerCrab_AllFisheriesNMFS-2SexCatchDataB.dat,TannerCrab_24_06b.ctl,TannerCrab_24_06.prj,NA,NA,NA
 TannerCrab_20250127,gmacs.dat,TannerCrab_24_06.dat,TannerCrab_24_06.ctl,TannerCrab_24_06.prj,NA,gmacs.par,Gmacsall.out
+TannerCrab_20250529_25_10,gmacs.dat,TannerCrab_AllFisheriesNMFS-CombinedSexCatchDataB.dat,TannerCrab_25_10.ctl,TannerCrab_25_10.prj,gmacs.pin,gmacs_25_10.par,NA
 v_2-20-14/BBRKC_2024Asmt,gmacs.dat,bbrkc211_24f.dat,bbrkc230a_sept24_sz1.ctl,bbrkc21_24f.prj,NA,gmacs.par,Gmacsall.out
 v_2-20-14/SMBKC_2024Asmt,gmacs.dat,sm24.dat,sm24.ctl,sm24.prj,NA,gmacs.par,NA
 v_2-20-17/SMBKC_2024Asmt,gmacs.dat,sm24.dat,sm24.ctl,sm24.prj,gmacs.pin,NA,NA

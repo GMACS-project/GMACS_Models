@@ -1,0 +1,288 @@
+#--GMACS par file to match TCSAM02 2024_22_03d5
+# Number of parameters = 352 Objective function value = 8791.52763994332  Maximum gradient component = 0.00000000000000
+# theta[1]:
+8.00000000000
+# theta[2]:
+8.00000000000
+# theta[3]:
+6.01616932310  #--pLnR[2]
+# theta[4]: ra
+35.1971000000    #--pRa[1] = 2.20056675681 = log(ra/rbeta)
+# theta[5]: rb
+3.89774000000    #--pRb[1] = 1.36039689286 = log(rb)
+# theta[6]:
+0.00000000000    #--female offset to theta[4]
+# theta[7]:
+0.00000000000    #--female offset to theta[5]
+# theta[8]: logSigmaR
+0.00000000000    #--equivalent to pRCV??
+# theta[9]: steepness
+0.750000000000   #--no TCSAM02 analog
+# theta[10]: rho
+0.0100000000000  #--no TCSAM02 analog
+# G_pars_est[1]: zGrA males
+25.0000000000
+# G_pars_est[2]: pGrA males
+32.0000000000     #--pGrA[1]: males
+# G_pars_est[3]: zGrB[1]
+125.000000000
+# G_pars_est[4]: pGrB males
+166.347675325     #--pGrB[1]
+# G_pars_est[5]:
+0.848782353329    #--pGrBeta[1]
+# G_pars_est[6]: zGrA females
+25.0000000000
+# G_pars_est[7]: pGrA females
+33.6583377143     #-pGrA[2]: females
+# G_pars_est[8]: pzGrB female
+100.000000000
+# G_pars_est[9]: pGrB females
+115.101596509     #--pGrB[2]: females
+# G_pars_est[10]:
+0.848782353329    #--pGrBeta[1] (repeat)
+# M_pars_est[1]: mature male
+0.319871          #--M_yxmsz["1975","male","mature","new shell","27"]
+# M_pars_est[2]: mature male block
+0.743589          #--M_yxmsz["1982","male","mature","new shell","27"]
+# M_pars_est[3]: ln-scale multiplier for immature male
+-0.231138         #--log(M_yxmsz["1975","male","immature","new shell","27"]/M_yxmsz["1975","male","mature","new shell","27"])
+# M_pars_est[4]: mature female non-block
+-0.01331127       #--log(M_yxmsz["1975","female","mature","new shell","27"]/M_yxmsz["1975","male","mature","new shell","27"])
+# M_pars_est[5]: mature female block
+0.6738887         #--log(M_yxmsz["1982","female","mature","new shell","27"]/M_yxmsz["1975","female","mature","new shell","27"])
+
+# S_pars_est[1]: TCF male logistic ln-scale z50 (all years)
+4.83755350801 #chk - all years pS1[8]
+# S_pars_est[2]: TCF male logistic ln-scale width (pre-1997)
+2.110448337 #chk - pre-1997 pS2[7]
+# S_pars_est[3]: TCF male logistic ln-scale width (2005+)   <-NEW!!
+1.754540663 #chk - 2005+ pS2[8]
+
+##--add 1 to all index values
+# S_pars_est[3]: SCF males block group 4 base ln-scale asc width 3-param double normal
+3.485848248 #chk pre-1997
+# S_pars_est[4]: SCF males block group 4 base ln-scale z50       3-param double normal
+5.077251844 #chk pre-1997
+# S_pars_est[5]: SCF males block group 4 base ln-scale dsc width 3-param double normal
+0.09531018 #chk pre-1997 pS4[1]
+# S_pars_est[6]: ascending ln-scale width:  SCF males block group 4 block 1
+2.781507834 #chk 1997-2004
+# S_pars_est[7]: ascending ln-scale width:  SCF males block group 4 block 2
+2.688676895 #chk 2005+
+# S_pars_est[8]: ln-scale z50:              SCF males block group 4 block 1
+4.784747125 #chk
+# S_pars_est[9]: ln-scale z50:              SCF males block group 4 block 2
+4.830769213 #chk
+# S_pars_est[10]: descending ln-scale width: SCF males block group 4 block 1
+2.986652593 #chk 1997-2004 pS4[2]
+# S_pars_est[11]: descending ln-scale width: SCF males block group 4 block 2
+2.577865512 #chk 2005+ pS4[3]
+
+# S_pars_est[13]: ln-scale width: RKF males
+2.982382644 #chk pre-1997
+# S_pars_est[12]: ln-scale mode:  RKF males
+5.192401141 #chk pre-1997
+# S_pars_est[16]: ln-scale width: RKF males
+3.321670616 #chk 1997-2004
+# S_pars_est[17]: ln-scale width: RKF males
+3.303392296 #chk 2005+
+# S_pars_est[14]: ln-scale mode:  RKF males
+5.192401141 #chk 1997-2004
+# S_pars_est[15]: ln-scale mode:  RKF males
+5.192401141 #chk 2005+
+
+# S_pars_est[18]: ln-scale z50:   GFA males
+4.122984623 #chk pre-1987
+# S_pars_est[19]: ln-scale width: GFA males
+2.414341774 #chk pre-1987
+# S_pars_est[20]: ln-scale z50:   GFA males
+4.283587198 #chk 1987-1996
+# S_pars_est[21]: ln-scale z50:   GFA males
+4.577220812 #chk 1997+
+# S_pars_est[22]: ln-scale width: GFA males
+3.06442782 #chk 1987-1996
+# S_pars_est[23]: ln-scale width: GFA males
+2.803814698 #chk 1997+
+
+# S_pars_est[24]: ln-scale asc. width: NMFS males base (1975-1981)
+4.161663224 #chk pre-1982
+# S_pars_est[25]: ln-scale mode z50:   NMFS males base (1975-1981)
+5.187385806 #chk pre-1982
+# S_pars_est[26]: ln-scale Sel_NMFS_male_asc_normal_cv_block_group_1_block_1 (1982+)
+4.442523193 #chk 1982+
+# S_pars_est[27]: ln-scale Sel_NMFS_male_asc_normal_mode_block_group_1_block_1 (1982+)
+5.187385806 #chk 1982+
+
+# S_pars_est[28]: ln-scale z50:   TCF females
+4.531509079 #chk all years pS1[9]
+# S_pars_est[29]: ln-scale width: TCF females
+1.62913986 #chk all years  pS2[9]
+
+# S_pars_est[30]: ln-scale z50:   SCF females
+4.397878087 #chk pre-1997
+# S_pars_est[31]: ln-scale width: SCF females
+1.987121075 #chk pre-1997
+# S_pars_est[32]: ln-scale z50:   SCF females
+4.288397809 #chk 1997-2004
+# S_pars_est[33]: ln-scale z50:   SCF females
+4.61448475 #chk 2005+
+# S_pars_est[34]: ln-scale width: SCF females
+1.148489037 #chk 1997-2004
+# S_pars_est[35]: ln-scale width: SCF females
+2.314437083 #chk 2005+
+
+# S_pars_est[37]: ln-scale width: RKF females
+2.887654878 #chk pre-1997
+# S_pars_est[36]: ln-scale mode:  RKF females
+4.940927882 #chk pre-1997
+# S_pars_est[40]: ln-scale width: RKF females
+2.933454956 #chk 1997-2004
+# S_pars_est[41]: ln-scale width: RKF females
+2.883307653 #chk 2005+
+# S_pars_est[38]: ln-scale mode:  RKF females
+4.913936222 #chk 1997-2004
+# S_pars_est[39]: ln-scale mode:  RKF females
+4.903539404 #chk 2005+
+
+# S_pars_est[42]: ln-scale z50:   GFA females
+3.797034242 #chk pre-1987
+# S_pars_est[43]: ln-scale width: GFA females
+2.007853225 #chk pre-1987
+# S_pars_est[44]: ln-scale z50:   GFA females
+3.722963485 #chk 1987-1996
+# S_pars_est[45]: ln-scale z50:   GFA females
+4.457652259 #chk 1997+
+# S_pars_est[46]: ln-scale width: GFA females
+1.855869813 #chk 1987-1996
+# S_pars_est[47]: ln-scale width: GFA females
+2.69214667 #chk 1997+
+
+# S_pars_est[48]: ln-scale asc. width: NMFS females base
+3.698656899 #chk
+# S_pars_est[49]: ln-scale mode z50:   NMFS females base
+4.866764924 #chk
+# S_pars_est[50]: ln-scale Sel_NMFS_female_asc_normal_cv_block_group_1_block_1
+4.292732622 #chk
+# S_pars_est[51]: ln-scale Sel_NMFS_female_asc_normal_mode_block_group_1_block_1
+4.866764924 #chk
+
+#--retention--
+# S_pars_est[52]: ln-scale z50:   TCF males base (pre-1991)
+4.935203575 #chk pS1[5]
+# S_pars_est[53]: ln-scale width: TCF males base (pre-1991)
+0.362552998 #chk pS2[5]
+# S_pars_est[54]: ln-scale z50:   TCF males BG3, block 1 1991-1996
+4.931140899 #chk pS1[6]
+# S_pars_est[55]: ln-scale z50:   TCF males BG3, block 2 2005-2009
+4.924642839 #chk pS1[28]
+# S_pars_est[56]: ln-scale z50:   TCF males BG3, block 3 2013+
+4.828998594 #chk pS1[29]
+# S_pars_est[57]: ln-scale width: TCF males BG3, block 1 1991-1996
+-0.004448544 #chk pS2[6]
+# S_pars_est[58]: ln-scale width: TCF males BG3, block 2 2005-2009
+-0.688134639 #chk pS2[28]
+# S_pars_est[59]: ln-scale width: TCF males BG3, block 3 2013+
+1.104977788 #chk pS2[29]
+
+# log_fbar[1]:
+-2.26495882850
+# log_fbar[2]:
+-4.03247979981
+# log_fbar[3]:
+-4.75902195357
+# log_fbar[4]:
+-5.26950276145
+# log_fbar[5]:
+-4.00000000000
+# log_fbar[6]:
+-4.00000000000
+# log_fdev[1]:
+ -1.69989756329 -1.46178263604 0.294197178863 0.657484767227 1.20478338863 1.25694359437 1.12187686430 0.938257278185 0.669108034078 0.836950182282 1.02028000094 1.65999184394 2.01136343336 1.54414953268 1.40791408596 1.27807721685 0.222969761470 -0.675756000782 -2.01504081187 -0.709244384671 -0.937890851558 0.0912495767390 1.27183562723 1.91220372816 1.69496361559 2.02258405158 1.52278899541 0.843446644734 0.329416281765 0.0671324362489 -1.89865343938 -1.26843185799 -1.42991386429 -1.56303203266 -1.56252830800 -1.37943127020 -0.0293851959094 0.290795348096 -1.48179415376 -1.35144752248 -1.60189361839 -1.89590918644 -1.52185205945 -1.68687871154
+# log_fdev[2]:
+ -0.345884327308 -0.0774819802223 0.423054248205 0.491439013346 0.0291732072846 -0.441758411242 0.254689484141 0.597765969853 0.706336175485 0.867513700995 0.755653738100 1.03465850864 0.972505860884 1.19858475174 0.249658676858 0.607056957361 0.0509474881879 -0.0534499036418 0.696233344404 0.860936145762 -0.0145341666096 -1.49925264700 -0.772988623184 -0.309451622606 -1.47149491944 -2.48114482260 -1.82506967914 -0.0615143515270 0.0879823187838 0.145388940892 -0.415573948414 -0.0794063568886 -0.0242270968557 0.454143926864 0.191916190381 0.200459024410 1.01804916127 0.824273864129 0.632207298587 0.0156438831838 -0.0112513775383 0.255834816192 -1.58155896582 -2.15606349590
+# log_fdev[3]:
+ -1.10923777264 -1.63296849165 -1.17565383946 -0.809474265763 -1.33347795935 -1.17958437343 -1.39314993677 -1.23385546267 -0.293523034830 0.199388716704 0.556531150654 0.551255280364 0.230654627707 0.239639141869 0.280967037279 0.568424070190 0.520569525897 0.481118232135 0.216803162437 0.678680254747 0.611315215368 0.694638992544 0.662744075790 1.07789618390 1.39629675214 1.30137033269 1.06581028763 1.61120434376 1.56380745153 0.318655894422 0.0681403387016 -0.155529636684 0.520567475907 0.729059879371 0.346548151057 0.657266071201 2.36084379367 1.94505852528 1.76626164778 2.76644640320 0.847965807549 0.474429333893 0.245272070070 -0.115963918427 -0.285450013741 -0.781154778280 -0.580557773738 -0.830670312318 -1.11030509910 -1.22953122790 -1.54248066617 -1.19137955046 0.119559673861 -0.316425419033 -1.74799304498 -1.69845534660 -1.36943683709 -0.388988147813 0.301879504362 -0.0705992070040 -0.130934316544 0.0337936786340 -0.650230898207 -1.35275743868 -0.992227231452 -1.30886708353
+# log_fdev[4]:
+ 1.63658666688 1.97119337521 1.15547565117 0.535564235908 0.0673162123393 -0.311183881808 0.208655369192 -0.0973580467592 -0.248549865400 -1.11157671630 -0.423984324291 -0.145211271684 -0.554044363412 -0.233017116078 -0.413680399524 -0.836302114500 -0.552939830148 -0.221382048194 0.784166549817 1.02400029708 0.775789186712 1.13146380634 0.990524879163 1.19642242243 1.35677343156 1.19323448409 0.839223458692 0.948969851182 1.29939182120 0.712979214941 0.0665575160859 0.325800756222 0.0953913968698 0.104174742716 -0.0142094680190 -0.305528630808 -0.606517026500 -0.956574238232 -0.979451637297 -1.23790821679 -0.570800081202 -0.425878505024 -0.526053439507 -0.531486978196 -0.958413282367 -0.727261199481 -0.795818773886 -0.937763511950 -0.813591791143 -1.24931439230 -1.63385417500
+# log_fdev[5]:
+ 0.00000000000
+# log_fdev[6]:
+ 0.00000000000
+# log_foff[1]:
+-6.40901722995
+# log_foff[2]:
+-4.67607607231
+# log_foff[3]:
+-0.500000011843
+# log_foff[4]:
+-5.90796296955
+# log_foff[5]:
+-5.25000000000
+# log_foff[6]:
+-5.25000000000
+# log_fdov[1]:
+ 5.25801624462e-12
+# log_fdov[2]:
+ -6.10533845702e-12
+# log_fdov[3]:
+ -1.30917499064e-12
+# log_fdov[4]:
+ 8.68993765835e-12
+# log_fdov[5]:
+ 0.00000000000
+# log_fdov[6]:
+ 0.00000000000
+# rec_dev_est:  pDevsLnR[2]: 1974-2023
+ 1.338551245  1.955653365  1.572205191  0.563181473  -0.155816565  -0.206975323  -0.039730212  -0.19265896  1.043821193  0.740064995  0.881711895  0.918111269  0.750442538  0.331240549  -0.406164823  -1.117982873  -1.402393654  -1.316882989  -1.316814016  -1.146095098  -0.649663455  -0.878204875  0.025238116  -0.986480201  0.580641898  -0.572003998  0.954331007  -0.266277781  1.057549033  0.448148348  -0.666745042  -1.121352493  -0.569227941  -0.088765559  1.340782136  0.328964321  -0.408245834  -1.659688608  -0.716075197  -1.466556624  -1.359226143  -0.690300826  0.762070461  0.207518454  0.351335109  -1.157656827  1.16241834  1.732136708  1.461572772  0.05029552
+# logit_rec_prop_est:
+ -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000 -0.00000000000
+# log_vn[1]:
+0.00000000000
+# log_vn[2]:
+0.00000000000
+# log_vn[3]:
+0.00000000000
+# log_vn[4]:
+0.00000000000
+# log_vn[5]:
+0.00000000000
+# log_vn[6]:
+0.00000000000
+# log_vn[7]:
+0.00000000000
+# log_vn[8]:
+0.00000000000
+# log_vn[9]:
+0.00000000000
+# log_vn[10]:
+0.00000000000
+# log_vn[11]:
+0.00000000000
+# log_vn[12]:
+0.00000000000
+# log_vn[13]:
+0.00000000000
+# log_vn[14]:
+0.00000000000
+# log_vn[15]:
+0.00000000000
+# survey_q[1]: q_par 1: Relative Abundance Index 1: NMFS males             base
+0.184391976517
+# survey_q[2]: q_par 2: Relative Abundance Index 1: NMFS males             block 1 (BG 2)
+0.268635304372
+# survey_q[3]: q_par 3: Relative Abundance Index 2: NMFS imm females       base
+0.832312653118
+# survey_q[4]: q_par 4: Relative Abundance Index 2: NMFS imm females       block 1 (BG 2)
+0.314347614330
+# survey_q[5]: q_par 5: Relative Abundance Index 4: BSFRF males base       (no block group)
+1.00000000000
+# log_add_cv[1]: addCV_par 1: Relative Abundance Index 1--NMFS males
+-9.21034037198
+# log_add_cv[2]: addCV_par 2: Relative Abundance Index 2--NMFS immature females
+-9.21034037198
+# log_add_cv[3]: addCV_par 3: Relative Abundance Index 4--BSFRF males
+-9.21034037198
+# par_devs[1:20]: pDevsS1, selectivity, selectivity, ln(z50_devs)_for_TCF_selectivity_(males,_1991+)
+# 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+  0.113775311581 0.091580304866 0.129718924051 0.13052222999 0.105774210035 0.206879729686 -0.027816918023 -0.0121838250238 -0.0786269605456 0.0383618817762 0.154770948441 -0.00700434944659 -0.060336725829 -0.0950393351986 -0.0624690108154 -0.108441584091 -0.16016875989 -0.147243533049 -0.132473682245 -0.079482075296
+
