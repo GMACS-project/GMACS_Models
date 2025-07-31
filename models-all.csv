@@ -4,6 +4,7 @@ AIGKC_EAG_202401,gmacs.dat,EAG_23_1b.dat,EAG_23_1b.ctl,EAG_23_1b.prj,gmacs.pin,N
 AIGKC_EAG_20240327,NA,NA,Gmacs9cEAG22_1e2CatchNo_complete.ctl,NA,NA,NA,NA
 AIGKC_EAG_20240723DirichMulti,gmacs.dat,EAG_25_1.dat,EAG_25_1.ctl,EAG_25_1.prj,NA,NA,Gmacsall.out
 AIGKC_EAG_20250114,gmacs.dat,EAG_23_1c.dat,EAG_23_1c.ctl,EAG_23_1c.prj,NA,NA,Gmacsall.out
+AIGKC_EAG_20250717,gmacs.dat,EAG_23_1c.dat,EAG_23_1c.ctl,EAG_23_1c.prj,NA,NA,Gmacsall.out
 AIGKC_EnvCovs,NA,Gmacs8cEAG21_1eUpdateCatchNo.dat,NA,NA,NA,NA,NA
 AIGKC_WAG_20250114,gmacs.dat,WAG_23_1c.dat,WAG_23_1c.ctl,WAG_23_1c.prj,NA,NA,Gmacsall.out
 BBRKC_202401,gmacs.dat,bbrkc211.dat,bbrkc211.ctl,bbrkc21.prj,gmacs.pin,NA,NA
@@ -33,6 +34,7 @@ SnowCrab_20240327,NA,NA,snow.ctl,NA,NA,NA,NA
 SnowCrab_20240328,gmacs.dat,snow.dat,snow.ctl,snow.prj,NA,NA,NA
 SnowCrab_20240403,gmacs.dat,snow.dat,snow.ctl,snow.prj,NA,NA,Gmacsall.out
 SnowCrab_20250127,gmacs.dat,snow.dat,snow.ctl,snow.prj,NA,gmacs.par,Gmacsall.out
+SnowCrab_20250721,gmacs.dat,snow.dat,snow.ctl,snow.prj,gmacs.par,gmacs.par,NA
 TannerCrab_20240208_MalesOnlyA,gmacs.dat,tanner.dat,tanner.ctl,tanner.prj,gmacs.pin,NA,NA
 TannerCrab_20240229_MalesOnlyANew,gmacs.dat,tanner.dat,tanner.ctl,tanner.prj,gmacs.pin,NA,NA
 TannerCrab_20240404,NA,TannerCrab_AllFisheriesNMFS.20240404a.dat,"TannerCrab_24_01.20240404.ctl, TannerCrab_24_01.20240404a.ctl, TannerCrab_24_01corrected.ctl",TannerCrab_24_01.20240404a.prj,NA,NA,NA
